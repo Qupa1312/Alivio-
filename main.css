@@ -1,0 +1,258 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: Lato; 
+} 
+ 
+.li{ 
+    list-style: none; 
+} 
+ 
+.a{ 
+    text-decoration: none; 
+} 
+ 
+.header{ 
+    padding: 17px 0; 
+} 
+ 
+.container{ 
+    max-width: 1400px; 
+    margin: 0 auto;  
+} 
+ 
+.header__warp{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+ 
+.header__menu{ 
+    display: flex; 
+} 
+ 
+.header__link{ 
+    color: #292929; 
+    font-size: 20px; 
+    font-weight: 500; 
+} 
+ 
+.header__item{ 
+    margin-right: 30px; 
+} 
+ 
+.btn{ 
+    color: #fff; 
+    font-weight: 400; 
+    font-size: 20px; 
+    background-color: #01996D; 
+    padding: 13px 50px; 
+    border-radius: 4px; 
+    border: none; 
+} 
+ 
+.btn__white{ 
+    color: #000000; 
+    background-color: #fff; 
+} 
+ 
+.main{ 
+    background: url(./bg.png) no-repeat center center / center;  
+    height: 90vh; 
+} 
+ 
+.main__info{ 
+    min-width: 440pxmm; 
+} 
+ 
+.main__title{ 
+    color: #01996D; 
+    font-size: 65px; 
+    font-weight: 900; 
+    margin-bottom: 30px; 
+} 
+ 
+.main__text{ 
+    color: #484848; 
+    font-size: 20px; 
+    margin-bottom: 55px; 
+} 
+ 
+.steps{ 
+    padding: 169px 0 255px 0; 
+} 
+ 
+.steps__subtitle{ 
+    color: #424242; 
+    font-weight: 700; 
+    font-size: 24px; 
+} 
+ 
+.steps__title{ 
+    color: #01996D; 
+    font-weight: 900; 
+    font-size: 50px; 
+    max-width: 584px; 
+} 
+ 
+.steps__text{ 
+    color: #424242; 
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 670px;
+    margin-bottom: 60px;
+}
+
+.steps__block{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 190px;
+}
+
+.steps__card-title{
+    color: #000000;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 55px;
+}
+
+.steps__card{
+    max-width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.steps__row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.steps__pic img{
+    border-radius: 12px;
+}
+
+.square{
+    background-color: #245852;
+    width: 1920px;
+    height: 922px;
+    margin-right: 300px;
+    margin-top: 255px; 
+}
+
+.video{
+    width: 895px;
+    height: 516px;
+}
+
+.head__video{
+    padding-top: 310px;
+    padding-left: 207px;
+    color: #fff;
+    font-size: 50px;
+}
+
+.custom__life{
+    color: #fff;
+    padding-left: 207px;
+    padding-top: 33px;
+    font-size: 25px;
+}
+
+.bttn{
+    font-size: 20px;
+    background-color: #01996D;
+    color: #fff;
+    width: 240px;
+    height: 65px;
+    margin-left: 207px;
+    margin-top: 57px;
+    border: none;
+    border-radius: 4px;
+}
+
+.white__square{
+    width: 1920px;
+    height: 929px;
+}
+
+.product{
+    padding-left: 1061px;
+    padding-top: 113px;
+    font-size: 25px;
+    color: #424242;
+}
+
+.stress{
+    font-size: 50px;
+    color: #01996D;
+    padding-top: 60px;
+    padding-left: 1061px;
+    padding-right: 275px;
+}
+
+.text{
+    font-size: 20px;
+    color: #484848;
+    padding-left: 1061px;
+    padding-top: 70px;
+    padding-right: 329px;
+
+}
+
+.green__btn{
+    width: 227px;
+    height: 65px;
+    background-color: #01996D;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-left: 1061px;
+    margin-top: 90px;
+}
+
+.end__square{
+    background-color: #245852;
+    width: 1920px;
+    height: 654px;
+    margin-right: 300px;
+    margin-top: 255px; 
+}
+
+.alivio__end{
+    color: #fff;
+    font-size: 40px;
+    padding-left: 275px;
+    padding-top: 95px;
+    font-weight: 800;
+}
+
+.Why{
+    color: #fff;
+    font-size: 25px;
+    padding-left: 275px;
+    padding-top: 60px;
+}
+
+.Solutions{
+    color: #fff;
+    font-size: 25px;
+    padding-left: 275px;
+    padding-top: 60px;
+}
+
+.Community{
+    color: #fff;
+    font-size: 25px;
+    padding-left: 275px;
+    padding-top: 60px;
+}
+
+.Pricing{
+    color: #fff;
+    font-size: 25px;
+    padding-left: 275px;
+    padding-top: 60px;
+}
